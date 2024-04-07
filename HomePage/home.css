@@ -103,6 +103,10 @@ ul {
 }
 .White--pages--Link--Nav > div > ul > li > a {
   text-decoration: none;
+  color: black;
+}
+.White--pages--Link--Nav > div > ul > li > .sale_InREd {
+  color: #d24863;
 }
 .White--pages--Link--Nav > div:last-child {
   gap: 2%;
@@ -177,6 +181,7 @@ header > center > div {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 header > center > div > p {
   border: 1px solid;
@@ -205,7 +210,7 @@ main > div > h5,
 h4 {
   font-size: 13px;
   color: #0c2340;
-  margin: 8px 0 0 0;
+  margin: 2px 0 0 0;
   padding: 0;
 }
 main > div > p > input[type="color"] {
@@ -255,7 +260,6 @@ main > div > h5 {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  
 }
 .Load--More--Section > center {
   margin-top: 20px;
@@ -303,6 +307,7 @@ footer > section {
 }
 footer > section > ul > li > h3 {
   margin: 0;
+  font-weight: 600;
 }
 
 footer > section > ul > li {
@@ -345,13 +350,14 @@ footer > section:nth-child(4) > ul > li:nth-child(3) {
   margin: 10px auto auto auto;
   height: 70px;
   padding: 0px 2vw;
-
 }
 .Policy_Cookie > a {
   /* border: 1px solid red; */
   margin: 0;
 }
-
+.More_Brands{
+color: white;
+}
 @media screen and (width<1121px) {
   .White--pages--Link--Nav {
     padding: 0px 0px;
@@ -395,5 +401,6 @@ footer > section:nth-child(4) > ul > li:nth-child(3) {
   .Policy_Cookie {
     flex-direction: column;
     align-items: flex-start;
+    gap: 9px;
   }
 }
