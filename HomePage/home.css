@@ -88,8 +88,8 @@ ul {
 ul {
   /* border: 1px solid; */
 }
-.White--pages--Link--Nav > div > img {
-  width: 22%;
+.White--pages--Link--Nav > div img {
+  width: 44%;
 }
 
 .White--pages--Link--Nav > div > ul {
